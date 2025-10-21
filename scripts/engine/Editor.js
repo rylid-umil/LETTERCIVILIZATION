@@ -45,7 +45,7 @@ Editor.create = function(){
 			id: Model.generateNewID(),
 			icon: emoji.icon,
 			name: "[new thing]",
-			description: "Click icon & paste in new emoji:\nMac: press control+command+space\nOther: copy from Emojipedia.org",
+			description: "Click icon & paste in new emoji:\nWindows: Windows Key + .\nMac: press control+command+space\nOther: copy from Emojipedia.org",
 			actions: []
 		};
 
@@ -186,7 +186,7 @@ Editor.create = function(){
 
 		// export label 
 		var exportLabel = Editor.createLabel(
-			"This is for those of you who want to save your sim to your own computertron! "+
+			"This is for those of you who want to save your sim to your own computertron! WARNING: YOU CANNOT IMPORT SO PLEASE PELASE PLEASE PLEASE SAVE AS A LINK"+
 			"<a href='https://github.com/ncase/sim#how-to-run-this-on-your-own-computertron' target='_blank'>[How To Do That]</a> "+
 			"Click the above button to open your sim's data in a new tab. "+
 			"Save it as <span style='font-family:monospace'>[your sim name].json</span>. "+
@@ -198,10 +198,14 @@ Editor.create = function(){
 
 		// CREDITS
 		var creditsLabel = Editor.createLabel(`
-			Made by <a href='https://ncase.me/' target='_blank'>Nicky Case</a>,
+			Emoji Simulator made by <a href='https://ncase.me/' target='_blank'>Nicky Case</a>,
 			with the 💖 of their supporters
 			<a href='https://www.patreon.com/ncase' target='_blank'>on Patreon</a>~
 			p.s: <a href='https://github.com/ncase/sim' target='_blank'>open source!</a>
+
+			Letter Civilization made by <a href='https://github.com/rylid-umil' target='_blank'>Rylid Umil</a>
+			Scratch version: <not public>
+			Stuff: https://github.com/rylid-umil/LETTERCIVILIZATION
 		`);
 		creditsLabel.style.display = "block";
 		creditsLabel.style.margin = "30px 0";
