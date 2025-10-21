@@ -1,5 +1,12 @@
-Made by [Nicky Case](http://ncase.me)
+Original Made by [Nicky Case](http://ncase.me)
 
+# In Letter Civilization, nobody dashes for the grapes.
+A fun little simulation... thing I made. It's as it says: Letter Civilization. Letters will be born, nourished, and killed . It initially starts off barren, but... crack! Eggs hatch. Letters arise. Things happen, then they die. I don't know how to explain it just [try it for yourself](https://rylid-umil.github.io/LETTERCIVILIZATION/?s=letter).
+
+I am remaking this in Scratch so it is easier to add stuff, along with much more functions and customizability because I can't code in js 😭
+
+# Original Readme.md
+Made by [Nicky Case](http://ncase.me)
 Dedicated to the public domain with [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/)! I'm giving away all my art/code/words, so that you teachers, scientists, hobbyists, activists, and emoji-lovers can use them however you like! This is for you. 💜
 
 How To Run This On Your Own Computertron
