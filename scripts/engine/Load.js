@@ -18,7 +18,7 @@ if(local = getParameterByName("s")){ // note: "=" not "=="
 }else if(url = getParameterByName("url")){ // yup: "=" not "=="
     path = url;
 }else{
-    path = "models/forest.json";
+    path = "models/letter.json";
 }
 
 let onLoadSuccess = (model)=>{
